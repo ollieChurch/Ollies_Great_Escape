@@ -1,0 +1,362 @@
+/*
+    Paradise Pink: ef476f,
+    Orange Yellow Crayola: ffd166,
+    Caribbean Green: 06d6a0,
+    Blue NCS: 118ab2,
+    Midnight Green Eagle Green: 073b4c
+*/
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: mintcream;
+}
+
+header {
+    background: #06D6A0;
+    color: mintcream;
+}
+
+main {
+    color: #073B4C;
+}
+
+footer {
+    background: #118AB2;
+    color: #FFD166;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    background: #118ab2;
+    border-radius: 5px;
+    padding: .5em 1.5em;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+/* ===== TYPOGRAPHY ===== */
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
+
+header {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.75rem;
+    color: #118AB2;
+    margin-bottom: .5em;
+    padding-bottom: .25em;
+    border-bottom: 3px solid #118AB2;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+input {
+    font-family: inherit;
+}
+
+/* Navigation */
+
+.nav-link {
+    text-decoration: none;
+    color: #FFD166;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #EF476F;
+}
+
+.nav-link-selected {
+    border-bottom: 3px solid #FFD166;
+}
+
+.nav-link-selected:hover,
+.nav-link-selected:focus {
+    border-bottom: 3px solid #EF476F;
+}
+
+
+/* Completed */
+
+#room-count-number {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ef476f;
+}
+
+.company-room-fail {
+    color: #EF476F;
+}
+
+.company-room-success {
+    color: #06d6a0;
+}
+
+
+/* Top 10 Escape Rooms */
+
+.room-container-number * {
+    font-size: 3.25rem;
+    font-weight: 400;
+    color: #ef476f;
+}
+
+.top-name {
+    color: #06d6a0;
+}
+
+/* Footer */
+
+.footer-text {
+    opacity: .75;
+    font-weight: 700;
+}
+
+
+
+/* ===== LAYOUT ===== */
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container-narrow {
+    padding: 0 1em 0 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+/* Navigation */
+
+header,
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+header h1 {
+    margin-bottom: .75em;
+}
+
+.nav-link {
+    margin-bottom: 1em;
+    width: fit-content;
+}
+
+@media (min-width: 700px) {
+    nav {
+        flex-direction: row;
+    }
+    
+    .nav-link {
+        margin: 0 1em 1em 1em;
+    }
+}
+
+
+/* Footer */
+
+footer {
+    padding: 3em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+/* Home Page */
+
+.home-description {
+    margin-bottom: 1em;
+}
+
+.home-images {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.home-image {
+    margin-bottom: 1em;
+    object-fit: cover;
+    display: none;
+}
+
+.home-image-mobile {
+    display: block;
+}
+
+@media (min-width: 700px) {
+    .home-image {
+        display: block;
+        max-width: 45%;
+    }
+}
+
+
+/* Completed Rooms */
+
+.completed-subtitle {
+    margin: 1em 0;
+}
+
+.container-narrow-count {
+    justify-content: space-between;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.container-narrow-count * {
+    width: 100%;
+}
+
+.room-count-text {
+    margin-bottom: 0.5em;
+}
+
+.count-finished {
+    animation: inflate 0.5s linear 0s 2 alternate;
+}
+
+@keyframes inflate {
+    from  { transform: scale(1); }
+    to { transform: scale(1.5); }
+}
+
+#room-search {
+    margin-bottom: 1em;
+}
+
+#room-search-input {
+    width: 60%;
+    font-size: 1.2rem;
+    padding: .5em 1.5em;
+    border: 1px solid #118ab2;
+    border-radius: 5px;
+    color: #073b4c;
+}
+
+.company-container {
+    border: 5px solid #06D6A0;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.company-location {
+    margin-bottom: 1em;
+}
+
+.company-room-list {
+    margin-left: 2.5em;
+}
+
+@media (min-width: 700px) {
+    .company-container {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .company-container {
+        width: 27%;
+    }
+}
+
+/* Top 10 Escape Rooms */
+
+#top-charts {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.room-container {
+    background-color: aliceblue;
+    border: #ef476f 5px solid;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-bottom: 1em;
+    width 100%;
+}
+
+.room-container-number {
+    margin-right: .5em;
+    width: 25%;
+    text-align: center;
+    background: #ffd166;
+    padding-top: 0.25em;
+}
+
+.room-container-text {
+	max-width: 70%;
+}
+
+.top-details {
+    margin-bottom: 1em;
+    font-size: .9rem;
+}
+
+@media (min-width: 1000px) {
+    .room-container {
+        width: 40%;
+    }
+    
+    .room-container-wide {
+        width: 90%;
+    }
+}
+
+
+
+
