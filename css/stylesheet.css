@@ -28,6 +28,7 @@ main {
 footer {
     background: #118AB2;
     color: #FFD166;
+    margin-bottom: 0;
 }
 
 img {
@@ -281,6 +282,11 @@ footer {
     border: 1px solid #118ab2;
     border-radius: 5px;
     color: #073b4c;
+}
+
+#room-search-error {
+    display: none;
+    text-align: center;
 }
 
 .company-container {

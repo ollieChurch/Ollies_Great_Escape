@@ -18,28 +18,29 @@
                 <a class="nav-link" href="top-10.html">Top 10 Rooms</a>
             </nav>
         </header>
-        
+
         <main>
             <div class="container">
                 <h2 class="completed-title">Completed Escape Rooms</h2>
-                
+
                 <div class="container-narrow container-narrow-count">
                     <p id="room-count-number">0</p>
                     <p class="room-count-text">rooms completed</p>
                     <p class="company-room-success" id="success-count">0 successful escapes</p>
                     <p class="company-room-fail" id="fail-count">0 failed escapes</p>
                 </div>
-                
-                <div>
+
+                <div class="room-list">
                     <h3 class="completed-subtitle">Full List:</h3>
                     <form class="container-narrow" id="room-search">
                         <input type="text" id="room-search-input" placeholder="Search Rooms" autocomplete="off"/>
                     </form>
                     <div class="container-narrow" id="rooms"></div>
+                    <p id="room-search-error">No Results Match Your Search</p>
                 </div> <!-- room list -->
             </div> <!-- container -->
         </main>
-        
+
         <footer>
             <p class="footer-text">Made by Ollie 🧑‍💻</p> 
             <p class="footer-text">Fuelled by tea ☕️</p>

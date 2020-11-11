@@ -436,7 +436,9 @@ roomSearch.addEventListener("submit", function(event) {
 })
 
 searchInput.addEventListener("keyup", function() {
+    const searchError = document.getElementById("room-search-error")
     const searchValue = searchInput.value.toLowerCase()
+    
     
     for (let i = 0; i < companies.length; i++) {
         const company = roomData[i]
@@ -464,6 +466,15 @@ searchInput.addEventListener("keyup", function() {
             companies[i].style.display = "block"
         } else {
             companies[i].style.display = "none"
+        }
+    }
+    
+    for (let i = 0; i < companies.length; i++) {
+        if (companies[i].style.display === "block") {
+            searchError.style.display = "none"
+            break
+        } else {
+            searchError.style.display = "block"
         }
     }
 })
