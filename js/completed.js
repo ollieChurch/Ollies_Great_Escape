@@ -3,7 +3,7 @@ let totalSuccessCount = 0;
 let totalFailCount = 0;
 
 // !! ROOM LIST !!
-const roomData = [
+let roomData = [
     {
         company: "Mystery Rooms UK",
         location: "Camberley, UK",
@@ -217,7 +217,7 @@ const roomData = [
             "Pirate Bay",
             "The Tower Of Wollongong",
             "Time Machine",
-            "The Irone Throne",
+            "The Iron Throne",
             "The Pharaoh's Burial Chamber",
             "Shogun's Shadow",
             "The Cathedral"
@@ -345,6 +345,7 @@ const roomData = [
         fail: []
     },
 ]
+roomData.sort((a, b) => (a.company > b.company) ? 1 : -1)
 const roomsContainer = document.getElementById("rooms")
 
 for (let i = 0; i < roomData.length; i++) {

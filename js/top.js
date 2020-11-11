@@ -63,7 +63,6 @@ const topData = [
 const chartsList = document.getElementById("top-charts")
 
 for (let i = 0; i < topData.length; i++) {
-    console.log("running for loop")
     const newEntry = document.createElement("div")
     const chartNumberContainer = document.createElement("div")
     const chartNumber = document.createElement("h3")
@@ -103,5 +102,4 @@ for (let i = 0; i < topData.length; i++) {
     }
     
     chartsList.append(newEntry)
-    console.log(newEntry)
 }
