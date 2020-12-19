@@ -38,7 +38,8 @@ let roomData = [
         location: "Dorking, UK",
         coordinates: "RH5 6AA",
         success: [
-            "Missing In Action"
+            "Missing In Action",
+            "Drosselmeyer's Workshop"
         ],
         fail: []
     },
