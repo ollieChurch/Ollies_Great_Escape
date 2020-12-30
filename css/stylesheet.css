@@ -365,6 +365,73 @@ footer {
     }
 }
 
+/* Shop */
+
+.shop-description {
+	margin-bottom: 1em;
+}
+
+.product {
+    background-color: aliceblue;
+    border: #ffd166 5px solid;
+    border-radius: 10px;
+    padding: 1em;
+    position: relative;
+}
+
+.product-title {
+    color: #ef476f;
+}
+
+.gameType-highlight {
+    font-weight: bold;
+	color: #118ab2;
+}
+
+.product-media {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-imgContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-media-img {
+    width: 45%;
+/*    border: 2px solid #073b4c;*/
+    border-radius: 5px;
+}
+
+.product-price {
+    color: #06d6a0;
+    font-size: 1.5rem;
+}
+
+.product-btn {
+    font-size: 1.5rem;
+    color: white;
+    padding: .5em 2em;
+    cursor: pointer;
+}
+
+.product-btn:focus,
+.product-btn:hover {
+    background: #06d6a0;
+    color: #073b4c;
+}
+
+.product *:not(:first-child):not(:last-child),
+.product {
+    margin-bottom: 1em;
+}
+
+
+
+
+
 
 
 

@@ -1,0 +1,90 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>Ollie's Escape Room Tracker</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+        
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Ollie's Great Escape</h1>
+            <nav>
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="completed.html">Completed Rooms</a>
+                <a class="nav-link" href="top-10.html">Top 10 Rooms</a>
+                <a class="nav-link nav-link-selected" href="shop.html">Maxwell Mysteries</a>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="container">
+                <h2 class="shop-title">Maxwell Mysteries</h2>
+                <p class="shop-description">Created by me and my partner, Maxwell Mysteries is a series of play-at-home escape games set in 1930s New York and following the cases of Private Investigator Larry Maxwell.</p>
+                <div id="products">
+                    <div class="product">
+                        <h3 class="product-title">The Disappearing Diamond</h3>
+                        <p class="product-gameType"><em>This is a <span class="gameType-highlight">'print and play'</span> game</em></p>
+                        <video class="product-media" src="videos/diamond_trailer.mp4" type="video/mp4" controls autoplay="true"></video>
+                        <p class="product-description">
+                            <strong>The Paradox Diamond has been stolen from the New York City Museum. Private Investigator Larry Maxwell is on the case but he needs your help. Can you catch the thief red-handed?</strong>
+                        <br /><br />
+                            Beautiful illustrations and a wide variety of puzzles, including offline and online elements. The game is split into 5 parts, and your progress is saved between parts, so you don't have to play it all at once, unless you want to of course!
+                        <br /><br />
+                                What You Need: <br />
+                                - a computer <br />
+                                - a colour printer <br />
+                                - scissors <br />
+                                - a pencil
+                        <br /><br />
+                            Play as a team or take on the case as a lone detective. The choice is yours.
+                        </p>
+                        <h4 class=product-price>Hours of fun for just £15</h4>
+<!--                        <button class="product-btn">Buy It Now!</button>-->
+                        <div
+                            class="pp-product-widget-container"
+                            data-product="1"
+                            data-show="button"
+                            data-button-label="Checkout"
+                            data-button-classes="product-btn"
+                        ></div>
+                    </div> <!-- product -->
+                    
+                    <div class="product">
+                        <h3 class="product-title">The Kidnapped Professor</h3>
+                        <p class="product-gameType"><em>This is a <span class="gameType-highlight">'print and play'</span> game</em></p>
+                        <div class="product-imgContainer">
+                        <img class="product-media product-media-img" src="images/cloakroom.jpg" alt="sketch drawings of cloakroom items such as bags and coats">
+                        <img class="product-media product-media-img" src="images/maxwell-mysteries1.jpeg" alt="puzzle papers in front of a laptop with the maxwell mysteries website showing">
+                        </div>
+                        <p class="product-description"><strong>This game is currently in development.</strong></p>
+                    </div> <!-- product -->
+                </div> <!-- products -->
+            </div> <!-- container -->
+        </main>
+        
+        <footer>
+            <p class="footer-text">Made by Ollie 🧑‍💻</p> 
+            <p class="footer-text">Fuelled by tea ☕️</p>
+        </footer>
+        
+        <script type="text/javascript">
+            (
+                function(d, s, id) {
+                    var js, wjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) {
+                        return;
+                    }
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.setAttribute('key', "UIy1qbIEj1EGooys0KxpAgfryOxOnvPjSs6Ol6Kr");
+                    js.src = "https://boxfile.io/js/widget.js";
+                    wjs.parentNode.insertBefore(js, wjs);
+                }(document, "script", "pp-product-widget-script")
+            );
+        </script>
+    </body>
+</html>

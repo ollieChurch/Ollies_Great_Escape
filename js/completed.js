@@ -479,11 +479,3 @@ searchInput.addEventListener("keyup", function() {
         }
     }
 })
-
-
-
-
-
-
-
-

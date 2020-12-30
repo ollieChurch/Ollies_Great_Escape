@@ -61,7 +61,6 @@ const topData = [
     },
 ]
 const chartsList = document.getElementById("top-charts")
-
 for (let i = 0; i < topData.length; i++) {
     const newEntry = document.createElement("div")
     const chartNumberContainer = document.createElement("div")
