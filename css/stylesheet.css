@@ -241,6 +241,7 @@ footer {
 }
 
 .home-image {
+    width: 100%;
     margin-bottom: 1em;
     object-fit: cover;
     object-position: center;
