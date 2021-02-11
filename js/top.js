@@ -80,9 +80,7 @@ for (let i = 0; i < topData.length; i++) {
     roomName.textContent = topData[i].room
     roomName.classList.add("top-name")
     
-    entryText.append(roomName)
-    entryText.append(roomDetailsContainer)
-    entryText.append(roomDescription)
+    entryText.append(roomName, roomDetailsContainer, roomDescription)
     entryText.classList.add("room-container-text")
     
     const number = i + 1
@@ -90,8 +88,7 @@ for (let i = 0; i < topData.length; i++) {
     chartNumberContainer.append(chartNumber)
     chartNumberContainer.classList.add("room-container-number")
     
-    newEntry.append(chartNumberContainer)
-    newEntry.append(entryText)
+    newEntry.append(chartNumberContainer, entryText)
     newEntry.classList.add("room-container")
     
     if (topData.length % 2 === 0) {

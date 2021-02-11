@@ -65,6 +65,7 @@ h3 {
 h1 {
     font-weight: 400;
     font-size: 3rem;
+    opacity: 0.9;
 }
 
 h2 {
@@ -92,19 +93,22 @@ input {
 
 .nav-link {
     text-decoration: none;
-    color: #FFD166;
+    color: #EF476F;
     font-size: 1.25rem;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    padding:.25em 1.25em;
+    padding-left: 1.375em; /* compensates for letter spacing on right */
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #EF476F;
+    color: #FFD166;
 }
 
 .nav-link-selected {
     border-bottom: 3px solid #FFD166;
+    color: #FFD166;
 }
 
 .nav-link-selected:hover,
@@ -187,16 +191,30 @@ header h1 {
 
 .nav-link {
     margin-bottom: 1em;
-    width: fit-content;
+    flex-basis: 25%;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 850px) {
     nav {
         flex-direction: row;
     }
     
     .nav-link {
         margin: 0 1em 1em 1em;
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFD166; 
+        border-radius: 7px;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus,
+    .nav-link-selected {
+        color: #FFD166;
+        background: #EF476F;
+        border-bottom: none;
     }
 }
 
@@ -401,7 +419,6 @@ footer {
 
 .product-media-img {
     width: 45%;
-/*    border: 2px solid #073b4c;*/
     border-radius: 5px;
 }
 

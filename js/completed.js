@@ -386,10 +386,7 @@ for (let i = 0; i < roomData.length; i++) {
         totalFailCount ++
     })
     
-    newCompany.append(companyName)
-    newCompany.append(companyLocationContainer)
-    newCompany.append(companyRooms)
-
+    newCompany.append(companyName, companyLocationContainer, companyRooms)
     roomsContainer.append(newCompany)
 }
 
