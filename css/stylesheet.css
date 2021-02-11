@@ -242,6 +242,7 @@ footer {
 
 .home-image {
     width: 100%;
+    height: auto;
     margin-bottom: 1em;
     object-fit: cover;
     object-position: center;
