@@ -345,6 +345,28 @@ let roomData = [
         ],
         fail: []
     },
+    {
+        company: "Escape From The Room",
+        location: "Epsom, UK",
+        coordinates: "KT17 4RJ",
+        success: [
+            "Return Of Old Maid Milly",
+            "Chambers Of Champions",
+            "Enigma Express: The Lady Vanishes",
+            "Enigma Express: Strangers On A Train",
+            "Enigma Express: A Curious Contraption"
+        ],
+        fail: []
+    },
+    {
+        company: "Hounds Escape Game Experiences",
+        location: "Crawley, UK",
+        coordinates: "KT17 4RJ",
+        success: [
+            "Questionable Ethics"
+        ],
+        fail: []
+    },
 ]
 roomData.sort((a, b) => (a.company > b.company) ? 1 : -1)
 const roomsContainer = document.getElementById("rooms")
