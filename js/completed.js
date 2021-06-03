@@ -17,7 +17,9 @@ let roomData = [
         company: "Cryptic Escapes",
         location: "Norwich, UK",
         coordinates: "NR3 1HF",
-        success: [],
+        success: [
+            "Mafia Robbery"
+        ],
         fail: [
             "The Treasure Of Green Beard",
             "The Haunted"
