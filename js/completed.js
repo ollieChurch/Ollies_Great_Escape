@@ -361,7 +361,7 @@ let roomData = [
         fail: []
     },
     {
-        company: "Hounds Escape Game Experiences",
+        company: "Hounds",
         location: "Crawley, UK",
         coordinates: "KT17 4RJ",
         success: [
