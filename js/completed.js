@@ -356,14 +356,15 @@ let roomData = [
             "Chambers Of Champions",
             "Enigma Express: The Lady Vanishes",
             "Enigma Express: Strangers On A Train",
-            "Enigma Express: A Curious Contraption"
+            "Enigma Express: A Curious Contraption",
+            "The Hex"
         ],
         fail: []
     },
     {
         company: "Hounds",
         location: "Crawley, UK",
-        coordinates: "KT17 4RJ",
+        coordinates: "RH10 1DY",
         success: [
             "Questionable Ethics"
         ],
