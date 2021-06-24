@@ -60,6 +60,7 @@ const topData = [
         description: "Small space, beautifully immersive from ceiling to floor. Strong story and interesting moral choice at the end. Added interactive A.I./clue system an excellent concept but not quite executed to match (Venus is better). The room felt like a whole other world from the pub it was based in."
     },
 ]
+
 const chartsList = document.getElementById("top-charts")
 for (let i = 0; i < topData.length; i++) {
     const newEntry = document.createElement("div")
