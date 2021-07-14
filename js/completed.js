@@ -88,7 +88,8 @@ let roomData = [
             "Rebellion",
             "Imaginarium",
             "The Divide",
-            "Station X"
+            "Station X",
+            "Pudding Lane"
         ],
         fail: []
     },
