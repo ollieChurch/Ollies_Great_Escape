@@ -120,7 +120,8 @@ let roomData = [
         success: [
             "Mutiny",
             "Outfitters",
-            "Dodge"
+            "Dodge",
+            "Spellcraft"
         ],
         fail: [
             "Nethercott Manor"
