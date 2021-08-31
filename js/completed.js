@@ -374,10 +374,19 @@ let roomData = [
     },
     {
         company: "Suffolk Escape Room",
-        locations: "Saxmundham, UK",
+        location: "Saxmundham, UK",
         coordinates: "IP17 1TG",
         success: [
             "Air Raid"
+        ],
+        fail: []
+    },
+    {
+        company: "Escape Hunt",
+        location: "Norwich, UK",
+        coordinates: "NR1 3SH",
+        success: [
+            "Aladdin"
         ],
         fail: []
     }
