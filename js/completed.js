@@ -372,6 +372,15 @@ let roomData = [
         ],
         fail: []
     },
+    {
+        company: "Suffolk Escape Room",
+        locations: "Saxmundham, UK",
+        coordinates: "IP17 1TG",
+        success: [
+            "Air Raid"
+        ],
+        fail: []
+    }
 ]
 roomData.sort((a, b) => (a.company > b.company) ? 1 : -1)
 const roomsContainer = document.getElementById("rooms")
