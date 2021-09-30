@@ -267,7 +267,7 @@ let roomData = [
         coordinates: "1061",
         success: [
             "Serial Killer",
-            "Research Base",
+            "Research Base"
         ],
         fail: []
     },
@@ -276,7 +276,7 @@ let roomData = [
         location: "Tunbridge Wells, UK",
         coordinates: "TN4 9PE",
         success: [
-            "Jail Break",
+            "Jail Break"
         ],
         fail: []
     },
@@ -285,7 +285,7 @@ let roomData = [
         location: "Norwich, UK",
         coordinates: "NR1 1LT",
         success: [
-            "Nuclear Countdown",
+            "Nuclear Countdown"
         ],
         fail: []
     },
@@ -306,7 +306,7 @@ let roomData = [
         coordinates: "DA12 2AH",
         success: [
             "Dino Land",
-            "Loop",
+            "Loop"
         ],
         fail: []
     },
@@ -315,7 +315,7 @@ let roomData = [
         location: "Prague, Czech Republic",
         coordinates: "Prague 2",
         success: [
-            "Galactic Pioneers",
+            "Galactic Pioneers"
         ],
         fail: []
     },
@@ -324,7 +324,7 @@ let roomData = [
         location: "Prague, Czech Republic",
         coordinates: "Prague 5",
         success: [
-            "Wonderland",
+            "Wonderland"
         ],
         fail: []
     },
@@ -399,6 +399,16 @@ let roomData = [
             "The Guardian of the Gallery",
             "Shimmy Shimmy Cocoa Pop",
             "Conspiracist"
+        ],
+        fail: []
+    },
+    {
+        company: "Make Your Escape",
+        location: "Derby, UK",
+        coordinates: "DE1 2HR",
+        success: [
+            "Dystopia",
+            "Utopia"
         ],
         fail: []
     }
