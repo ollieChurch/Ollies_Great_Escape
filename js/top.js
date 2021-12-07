@@ -46,7 +46,7 @@ const topData = [
         company: "Darkmaster",
         location: "Crowborough, UK",
         description: "Highly immersive set design which required entering a tomb, exploring the depths by rope ladder and even navigating a river cave by inflatable boat! But what truly earns this room a place on the top 10 is it's totally unique 'moving sands' effect which made me question reality for more than a second."
-    }
+    },
     {
         room: "The Bank Robbery (new)",
         company: "Escape Reading",
