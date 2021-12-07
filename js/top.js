@@ -24,6 +24,12 @@ const topData = [
         description: "My third escape room, highly immersive and story driven. Puzzle structure played to my strengths and loved the secret room and compartment surprises. Mad and energetic excitement and fun throughout and excellent hosting."
     },
     {
+        room: "Into The Reliquary",
+        company: "Darkmaster",
+        location: "Crowborough, UK",
+        description: "Highly immersive set design which required entering a tomb, exploring the depths by rope ladder and even navigating a river cave by inflatable boat! But what truly earns this room a place on the top 10 is it's totally unique 'moving sands' effect which made me question reality for more than a second."
+    },
+    {
         room: "Rebellion",
         company: "Time Trap",
         location: "Reading, UK",
@@ -40,12 +46,6 @@ const topData = [
         company: "Mystique Room",
         location: "Budapest, Hungary",
         description: "This has to be the most impressive set I have ever walked into. Looking up at a full size pirate ship while stood on the dock, climbing up onto the deck, down into the ship, up on top of the ship. An experience not rivalled by any other room."
-    },
-    {
-        room: "Into The Reliquary",
-        company: "Darkmaster",
-        location: "Crowborough, UK",
-        description: "Highly immersive set design which required entering a tomb, exploring the depths by rope ladder and even navigating a river cave by inflatable boat! But what truly earns this room a place on the top 10 is it's totally unique 'moving sands' effect which made me question reality for more than a second."
     },
     {
         room: "The Bank Robbery (new)",
