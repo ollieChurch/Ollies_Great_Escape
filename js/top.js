@@ -30,6 +30,12 @@ const topData = [
         description: "Highly immersive set design which required entering a tomb, exploring the depths by rope ladder and even navigating a river cave by inflatable boat! But what truly earns this room a place on the top 10 is it's totally unique 'moving sands' effect which made me question reality for more than a second."
     },
     {
+        room: "Pirate Bay",
+        company: "Mystique Room",
+        location: "Budapest, Hungary",
+        description: "This has to be the most impressive set I have ever walked into. Looking up at a full size pirate ship while stood on the dock, climbing up onto the deck, down into the ship, up on top of the ship. An experience not rivalled by any other room."
+    },
+    {
         room: "Rebellion",
         company: "Time Trap",
         location: "Reading, UK",
@@ -40,12 +46,6 @@ const topData = [
         company: "Paradox Parlours",
         location: "Guildford, UK",
         description: "Even as the first team to test this room the potential behind it was huge. Excellent puzzles which go deeper and require more careful thought than most. But the standout is Venus herself, a fully interactive and hilarious A.I. I could have spent the whole time just chatting to her."
-    },
-    {
-        room: "Pirate Bay",
-        company: "Mystique Room",
-        location: "Budapest, Hungary",
-        description: "This has to be the most impressive set I have ever walked into. Looking up at a full size pirate ship while stood on the dock, climbing up onto the deck, down into the ship, up on top of the ship. An experience not rivalled by any other room."
     },
     {
         room: "The Bank Robbery (new)",
