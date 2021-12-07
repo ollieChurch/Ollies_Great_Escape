@@ -41,7 +41,8 @@ let roomData = [
         coordinates: "RH5 6AA",
         success: [
             "Missing In Action",
-            "Drosselmeyer's Workshop"
+            "Drosselmeyer's Workshop",
+            "Toil and Trouble"
         ],
         fail: []
     },
@@ -411,6 +412,16 @@ let roomData = [
             "Utopia"
         ],
         fail: []
+    },
+    {
+        company: "Darkmaster",
+        location: "Crowborough, UK",
+        coordinates: "TN6 1UX",
+        success: [
+            "Into The Reliquary",
+            "One Wing Airlines"
+        ],
+        fail: [] 
     }
 ]
 roomData.sort((a, b) => (a.company > b.company) ? 1 : -1)

@@ -42,6 +42,12 @@ const topData = [
         description: "This has to be the most impressive set I have ever walked into. Looking up at a full size pirate ship while stood on the dock, climbing up onto the deck, down into the ship, up on top of the ship. An experience not rivalled by any other room."
     },
     {
+        room: "Into The Reliquary",
+        company: "Darkmaster",
+        location: "Crowborough, UK",
+        description: "Highly immersive set design which required entering a tomb, exploring the depths by rope ladder and even navigating a river cave by inflatable boat! But what truly earns this room a place on the top 10 is it's totally unique 'moving sands' effect which made me question reality for more than a second."
+    }
+    {
         room: "The Bank Robbery (new)",
         company: "Escape Reading",
         location: "Reading, UK",
@@ -52,13 +58,7 @@ const topData = [
         company: "Hounds",
         location: "Crawley, UK",
         description: "Questionable Ethics has a brilliant asthetic throughout. A well paced and, at times frantic, puzzling experience which provided the three of us with lots to do, despite all being experienced players. Genuine excitement with each new big discovery and a fun fast paced ending."
-    },
-    {
-        room: "Judgement Dave",
-        company: "Bewilderbox",
-        location: "Brighton, UK",
-        description: "Small space, beautifully immersive from ceiling to floor. Strong story and interesting moral choice at the end. Added interactive A.I./clue system an excellent concept but not quite executed to match (Venus is better). The room felt like a whole other world from the pub it was based in."
-    },
+    }
 ]
 
 const chartsList = document.getElementById("top-charts")
