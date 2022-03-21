@@ -422,7 +422,17 @@ let roomData = [
             "One Wing Airlines"
         ],
         fail: [] 
-    }
+    },
+    {
+        company: "Gatwick Escape Rooms",
+        location: "Crawley, UK",
+        coordinates: "RH6 7YS",
+        success: [
+            "Crazy Cat Lady",
+            "An Hour To Kill"
+        ],
+        fail: [] 
+    },
 ]
 roomData.sort((a, b) => (a.company > b.company) ? 1 : -1)
 const roomsContainer = document.getElementById("rooms")
