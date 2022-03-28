@@ -277,7 +277,9 @@ let roomData = [
         location: "Tunbridge Wells, UK",
         coordinates: "TN4 9PE",
         success: [
-            "Jail Break"
+            "Jail Break",
+            "Diamond Dogs",
+            "Temple Quest"
         ],
         fail: []
     },
